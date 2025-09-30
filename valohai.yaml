@@ -1,0 +1,18 @@
+# Valohai YAML configuration file
+# This file defines the steps, parameters, inputs, and outputs for your ML experiments.
+
+# Example of a single step definition:
+# - step:
+#     name: my-first-step
+#     image: python:3.9-slim-buster
+#     command:
+#       - python my_script.py {parameters}
+#     parameters:
+#       - name: learning-rate
+#         default: 0.001
+#         type: float
+#     inputs:
+#       - name: training-data
+#         default: datum://my-data/training_set.zip
+#     outputs:
+#       - name: model
